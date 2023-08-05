@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>
+            Tiendas <span>muebles</span> 
+        </h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="tienda.html">Tienda</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="galeria.html">Galería</a></li>
+                <li><a href="contactos.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>CONTACTO</h2>
+        <form action="./hola.html">
+        <div>
+            <fieldset>
+                <legend>Tus datos</legend>
+            <label for="name">Nombre:</label>
+            <input id="name" type="text" placeholder="Tu nombre"><br>
+        
+            <label for="asun">Asunto:</label>
+            <input id="asun" type="text" placeholder="Tu asunto"><br>
+    
+            <label for="email">Nombre:</label>
+            <input id="email" type="email" placeholder="Tu email"><br>
+        
+            <label for="phone">Telefono:</label>
+            <input id="phone" type="text" placeholder="Tu telefono"><br>
+        
+            <label for="mss">Mensaje:</label><br>
+            <textarea name="Mensaje" id="mss" cols="30" rows="10"></textarea><br>
+            </fieldset>
+        </div>
+        <div>
+            <fieldset>
+                <legend>País</legend> 
+            <label for="pais">País:</label>
+            <select name="pai" id="pais">
+                <option value="opcion1">Perú</option>
+                <option value="opcion2">Colombia</option>
+                <option value="opcion3">Venezuela</option>
+                <option value="opcion4">Argentina</option>
+                <option value="opcion5">España</option>
+            </select>
+        </div>
+        <div>
+            <fieldset>
+                <legend>Informacion Extra</legend>
+            <input id="opcion1" value="opcion1" type="radio" name="opcion"> Cliente <br>
+            <input id="opcion2" value="opcion2" type="radio" name="opcion"> Proveedor <br>
+            <label for="cat">Categoría de interes:</label> <br>
+            <textarea name="ca" id="cat" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <button type="submit">Enviar formulario</button>
+        </div>
+        </form>
+    </main>
+
+    <footer>
+        <section>
+            <div>
+                <h3>Categorías</h3>
+                <nav class="footer-menu">
+                    <a href="#">Cocina</a><br>
+                    <a href="#">Oficina</a><br>
+                    <a href="#">Jardín</a><br>
+                    <a href="#">Cochera</a><br>
+                    <a href="#">Dormitorios</a><br>
+                </nav>
+            </div>
+            <div>
+                <h3>Sobre nosotros</h3>
+                <nav class="footer-menu"> 
+                    <a href="#">Nuestra Historia</a><br>
+                    <a href="#">Misión, Visión y Valores</a><br>
+                    <a href="#">Carreras</a><br>
+                    <a href="#">Política de Privacidad</a><br>
+                    <a href="#">Términos del Servicio</a><br>
+                </nav>
+            </div>
+            <div>
+                <h3>Soporte</h3>
+                <nav class="footer-menu"> 
+                    <a href="#">Preguntas Frecuentes</a><br>
+                    <a href="#">Ayuda en línea</a><br>
+                    <a href="#">Confianza y Seguridad</a><br>
+                </nav>
+            </div>
+        </section>
+    </footer>
+</body>
+</html>
